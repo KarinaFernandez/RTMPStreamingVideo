@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C772B83F4687C6B3FBD7C0 /* Pods_Basic_Streaming_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638A0421AAA67EBF106556BC /* Pods_Basic_Streaming_App.framework */; };
+		9AD5494A1FF2BAA2004EAEED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD549491FF2BAA2004EAEED /* AppDelegate.swift */; };
+		9AD5494C1FF2BAA2004EAEED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD5494B1FF2BAA2004EAEED /* ViewController.swift */; };
+		9AD5494F1FF2BAA2004EAEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD5494D1FF2BAA2004EAEED /* Main.storyboard */; };
+		9AD549511FF2BAA2004EAEED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AD549501FF2BAA2004EAEED /* Assets.xcassets */; };
+		9AD549541FF2BAA2004EAEED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AD549521FF2BAA2004EAEED /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03C67B6240331BBE1BB53EC6 /* Pods-Basic Streaming App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basic Streaming App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Basic Streaming App/Pods-Basic Streaming App.debug.xcconfig"; sourceTree = "<group>"; };
+		2DA632FA056E4241F6470E49 /* Pods-Basic Streaming App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basic Streaming App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Basic Streaming App/Pods-Basic Streaming App.release.xcconfig"; sourceTree = "<group>"; };
+		638A0421AAA67EBF106556BC /* Pods_Basic_Streaming_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Basic_Streaming_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC1B3761FF2D72300CEB06E /* Basic Streaming App.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Basic Streaming App.h"; sourceTree = "<group>"; };
+		9AD549461FF2BAA2004EAEED /* Basic Streaming App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic Streaming App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD549491FF2BAA2004EAEED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AD5494B1FF2BAA2004EAEED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9AD5494E1FF2BAA2004EAEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AD549501FF2BAA2004EAEED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AD549531FF2BAA2004EAEED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AD549551FF2BAA2004EAEED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AD549431FF2BAA2004EAEED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C772B83F4687C6B3FBD7C0 /* Pods_Basic_Streaming_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CE8D829B685C68EAB528891 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03C67B6240331BBE1BB53EC6 /* Pods-Basic Streaming App.debug.xcconfig */,
+				2DA632FA056E4241F6470E49 /* Pods-Basic Streaming App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C8F5E05C71949DD058FEFA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				638A0421AAA67EBF106556BC /* Pods_Basic_Streaming_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AD5493D1FF2BAA2004EAEED = {
+			isa = PBXGroup;
+			children = (
+				9AC1B3761FF2D72300CEB06E /* Basic Streaming App.h */,
+				9AD549481FF2BAA2004EAEED /* Basic Streaming App */,
+				9AD549471FF2BAA2004EAEED /* Products */,
+				0CE8D829B685C68EAB528891 /* Pods */,
+				5C8F5E05C71949DD058FEFA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AD549471FF2BAA2004EAEED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AD549461FF2BAA2004EAEED /* Basic Streaming App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AD549481FF2BAA2004EAEED /* Basic Streaming App */ = {
+			isa = PBXGroup;
+			children = (
+				9AD549491FF2BAA2004EAEED /* AppDelegate.swift */,
+				9AD5494B1FF2BAA2004EAEED /* ViewController.swift */,
+				9AD5494D1FF2BAA2004EAEED /* Main.storyboard */,
+				9AD549501FF2BAA2004EAEED /* Assets.xcassets */,
+				9AD549521FF2BAA2004EAEED /* LaunchScreen.storyboard */,
+				9AD549551FF2BAA2004EAEED /* Info.plist */,
+			);
+			path = "Basic Streaming App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AD549451FF2BAA2004EAEED /* Basic Streaming App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AD549581FF2BAA2004EAEED /* Build configuration list for PBXNativeTarget "Basic Streaming App" */;
+			buildPhases = (
+				D11E2D40DA263577A7701960 /* [CP] Check Pods Manifest.lock */,
+				9AD549421FF2BAA2004EAEED /* Sources */,
+				9AD549431FF2BAA2004EAEED /* Frameworks */,
+				9AD549441FF2BAA2004EAEED /* Resources */,
+				EB97B599A56B9D291CFD2B2E /* [CP] Embed Pods Frameworks */,
+				DB9549C2478C09FC4E60CBC8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Basic Streaming App";
+			productName = "Basic Streaming App";
+			productReference = 9AD549461FF2BAA2004EAEED /* Basic Streaming App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AD5493E1FF2BAA2004EAEED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Karina;
+				TargetAttributes = {
+					9AD549451FF2BAA2004EAEED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9AD549411FF2BAA2004EAEED /* Build configuration list for PBXProject "Basic Streaming App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AD5493D1FF2BAA2004EAEED;
+			productRefGroup = 9AD549471FF2BAA2004EAEED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AD549451FF2BAA2004EAEED /* Basic Streaming App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AD549441FF2BAA2004EAEED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD549541FF2BAA2004EAEED /* LaunchScreen.storyboard in Resources */,
+				9AD549511FF2BAA2004EAEED /* Assets.xcassets in Resources */,
+				9AD5494F1FF2BAA2004EAEED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D11E2D40DA263577A7701960 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Basic Streaming App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9549C2478C09FC4E60CBC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Basic Streaming App/Pods-Basic Streaming App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB97B599A56B9D291CFD2B2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Basic Streaming App/Pods-Basic Streaming App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AD549421FF2BAA2004EAEED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD5494C1FF2BAA2004EAEED /* ViewController.swift in Sources */,
+				9AD5494A1FF2BAA2004EAEED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AD5494D1FF2BAA2004EAEED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD5494E1FF2BAA2004EAEED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AD549521FF2BAA2004EAEED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AD549531FF2BAA2004EAEED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AD549561FF2BAA2004EAEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AD549571FF2BAA2004EAEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AD549591FF2BAA2004EAEED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03C67B6240331BBE1BB53EC6 /* Pods-Basic Streaming App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H74T5WHX9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Basic Streaming App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Karina.Basic-Streaming-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/karina/Documents/Projects/Basic Streaming App/Basic Streaming App.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AD5495A1FF2BAA2004EAEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA632FA056E4241F6470E49 /* Pods-Basic Streaming App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8H74T5WHX9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Basic Streaming App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Karina.Basic-Streaming-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/karina/Documents/Projects/Basic Streaming App/Basic Streaming App.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AD549411FF2BAA2004EAEED /* Build configuration list for PBXProject "Basic Streaming App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD549561FF2BAA2004EAEED /* Debug */,
+				9AD549571FF2BAA2004EAEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AD549581FF2BAA2004EAEED /* Build configuration list for PBXNativeTarget "Basic Streaming App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AD549591FF2BAA2004EAEED /* Debug */,
+				9AD5495A1FF2BAA2004EAEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AD5493E1FF2BAA2004EAEED /* Project object */;
+}
